@@ -61,7 +61,7 @@ public class ExcelRead
 					{
 						Date date = cell.getDateCellValue();
 						
-//						System.out.println(date);
+					System.out.println(date);
 						
 						SimpleDateFormat d=new SimpleDateFormat("dd-MMM-YYYY");
 						
@@ -73,7 +73,7 @@ public class ExcelRead
 					{
 						double numericCellValue = cell.getNumericCellValue();
 						
-//						System.out.println(numericCellValue);
+					System.out.println(numericCellValue);
 						
 						long l=(long)numericCellValue;
 						
