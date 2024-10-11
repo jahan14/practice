@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="52.223" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Orange HRM  Login Validation" name="Orange HRM Login Validation with username and password" time="13.774">
+<system-out><![CDATA[
+And open the Orange HRM Login Page..........................................passed
+When Enter the valid "Admin" and "admin123".................................passed
+And click the login button..................................................passed
+Then I validate the user profile name.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Orange HRM  Login Validation" name="Orange HRM Login Validation with username and password" time="9.701">
+<system-out><![CDATA[
+And open the Orange HRM Login Page..........................................passed
+When Enter the valid "Admin" and "admin1234"................................passed
+And click the login button..................................................passed
+Then I validate the user profile name.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Orange HRM  Login Validation" name="Orange HRM Login Validation with username and password" time="9.265">
+<system-out><![CDATA[
+And open the Orange HRM Login Page..........................................passed
+When Enter the valid "Admin12" and "admin123"...............................passed
+And click the login button..................................................passed
+Then I validate the user profile name.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Orange HRM  Login Validation" name="Orange HRM Login Validation with username and password" time="9.166">
+<system-out><![CDATA[
+And open the Orange HRM Login Page..........................................passed
+When Enter the valid "Admin12" and "admin1234"..............................passed
+And click the login button..................................................passed
+Then I validate the user profile name.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Orange HRM  Login Validation" name="Orange HRM Login Validation with username and password - #1.1" time="9.923">
+<system-out><![CDATA[
+And open the Orange HRM Login Page..........................................passed
+When Enter the valid "Admin" and "admin123".................................passed
+And click the login button..................................................passed
+Then I validate the user profile name.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
