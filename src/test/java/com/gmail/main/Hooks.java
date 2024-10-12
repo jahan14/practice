@@ -15,10 +15,12 @@ public class Hooks extends BaseClass
 	public void launch()
 	{
 		driver=Webbrowser("Chrome");
+		System.out.println("Before");
 	}
 	@After
 	public void clo()
 	{
 		driver.close();
+		System.out.println("After");
 	}
 }
